@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.9903792526491912,
+  "precision": 0.9900265755569978,
+  "recall": 0.9911979128497954,
+  "f1": 0.9905137733673564,
+  "weighted_f1": 0.9903848265748394,
+  "model": "vit_base_patch16_224",
+  "best_ckpt": "best.pth",
+  "train_time_s": 3349.1,
+  "params": 85743384,
+  "best_val_acc": 0.9963583394027676
+}

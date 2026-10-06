@@ -1,0 +1,20 @@
+\begin{table}
+\caption{Sign Language MNIST — 10 Transfer Learning Modeli Karşılaştırması}
+\label{tab:comparison}
+\begin{tabular}{lrrrrrrr}
+\toprule
+model & accuracy & precision & recall & f1 & weighted_f1 & params_M & train_time_s \\
+\midrule
+convnextv2_tiny & 0.9925 & 0.9925 & 0.9940 & 0.9932 & 0.9925 & 27.8800 & 3060.7000 \\
+vit_base_patch16_224 & 0.9904 & 0.9900 & 0.9912 & 0.9905 & 0.9904 & 85.7400 & 3349.1000 \\
+swin_tiny_patch4_window7_224 & 0.9887 & 0.9891 & 0.9907 & 0.9896 & 0.9887 & 27.5300 & 2981.7000 \\
+coatnet_0_rw_224 & 0.9849 & 0.9850 & 0.9869 & 0.9855 & 0.9850 & 26.6500 & 2891.5000 \\
+deit3_small_patch16_224 & 0.9108 & 0.9215 & 0.9198 & 0.9095 & 0.9129 & 21.6500 & 2648.7000 \\
+regnety_032 & 0.8935 & 0.8995 & 0.9029 & 0.8921 & 0.8942 & 17.9600 & 3184.2000 \\
+efficientnetv2_rw_s & 0.8846 & 0.8872 & 0.8905 & 0.8835 & 0.8847 & 22.1900 & 3222.3000 \\
+resnetv2_50 & 0.8309 & 0.8390 & 0.8413 & 0.8296 & 0.8270 & 23.5500 & 2720.2000 \\
+maxvit_tiny_tf_224 & 0.7793 & 0.8075 & 0.7955 & 0.7784 & 0.7754 & 30.4000 & 4079.3000 \\
+mobilevit_s & 0.6797 & 0.7348 & 0.6748 & 0.6538 & 0.6679 & 4.9500 & 2681.7000 \\
+\bottomrule
+\end{tabular}
+\end{table}

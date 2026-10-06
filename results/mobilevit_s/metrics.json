@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.6797267150027886,
+  "precision": 0.7347916338719801,
+  "recall": 0.6747571244660039,
+  "f1": 0.65379976584289,
+  "weighted_f1": 0.6678532238490782,
+  "model": "mobilevit_s",
+  "best_ckpt": "best.pth",
+  "train_time_s": 2681.7,
+  "params": 4953016,
+  "best_val_acc": 0.7089099295945618
+}

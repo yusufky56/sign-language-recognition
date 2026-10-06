@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.8845510317902956,
+  "precision": 0.8871560099719163,
+  "recall": 0.8904839004769635,
+  "f1": 0.8834562953473281,
+  "weighted_f1": 0.8847183500196927,
+  "model": "efficientnetv2_rw_s",
+  "best_ckpt": "best.pth",
+  "train_time_s": 3222.3,
+  "params": 22191328,
+  "best_val_acc": 0.9317795581451809
+}

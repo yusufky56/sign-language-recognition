@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.7792805354155048,
+  "precision": 0.8075138633756801,
+  "recall": 0.7954998032610997,
+  "f1": 0.7783537735520164,
+  "weighted_f1": 0.7754135226588886,
+  "model": "maxvit_tiny_tf_224",
+  "best_ckpt": "best.pth",
+  "train_time_s": 4079.3,
+  "params": 30401056,
+  "best_val_acc": 0.8356397183782471
+}

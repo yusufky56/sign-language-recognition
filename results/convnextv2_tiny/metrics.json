@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.9924707194645845,
+  "precision": 0.9925171503721106,
+  "recall": 0.9940452856402701,
+  "f1": 0.9931520991023511,
+  "weighted_f1": 0.9924861829646767,
+  "model": "convnextv2_tiny",
+  "best_ckpt": "best.pth",
+  "train_time_s": 3060.7,
+  "params": 27884952,
+  "best_val_acc": 0.9987861131342559
+}
