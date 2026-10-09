@@ -70,3 +70,7 @@ src/
 └── utils.py
 results/            # Metrics, curves, confusion matrices (weights not included)
 ```
+
+## License
+
+[MIT](LICENSE). The MIT license covers the source code. Figures that appear in the published paper may be subject to the publisher's copyright and are not covered by this license. Datasets belong to their original authors.
